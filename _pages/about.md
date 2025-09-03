@@ -2,13 +2,13 @@
 layout: about
 title: about
 permalink: /
-subtitle: "<a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc."
+subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
 
 profile:
   align: right
   image: profile.jpg
   image_circular: false # crops the image to make it circular
-  more_info: >
+  more_info: 
   #  <p>555 your office number</p>
     <p>919 E Shaw Ln</p>
     <p>East Lansing, Michigan</p>
