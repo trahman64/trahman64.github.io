@@ -103,16 +103,12 @@
   "projects": [
   {
     "name": "Sparty in the Box",
-    "startDate": "2024-12-01",
-    "endDate": "",
-    "description": "Developed a Jack in the Box with C++ and wxWidgets where a character (Sparty) pops out after a certain time.",
+    "summary": "Developed a Jack in the Box with C++ and wxWidgets where a character (Sparty) pops out after a certain time.",
     "keywords": ["C++", "wxWidgets"]
   },
   {
     "name": "Movie Recommendation System",
-    "startDate": "2024-11-01",
-    "endDate": "",
-    "description": "Built a movie recommendation system using K Nearest Neighbors with Python."
+    "summary": "Built a movie recommendation system using K Nearest Neighbors with Python."
 }
   ]
 }
