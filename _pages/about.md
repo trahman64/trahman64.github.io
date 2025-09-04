@@ -22,13 +22,10 @@ announcements:
   limit: 5 # leave blank to include all the news in the `_news` folder
 
 latest_posts:
-  enabled: true
+  enabled: false
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 ---
 
 Hi I am Tasmia! I am a senior majoring in Computer Science and minoring in Data Science and Business in Honors College at Michigan State University. I’m currently exploring advanced coursework and projects in machine learning and statistical modeling. Currently, I am a Resident Assistant at Holmes Hall, an Undergraduate Learning Assistant in CMSE 202 (Computational Modelling and Data Analysis) and an Undergraduate Research Assistant in a project called BESFEM.
 
-
-
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
