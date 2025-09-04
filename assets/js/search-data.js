@@ -407,8 +407,8 @@ ninja.data = [{
           description: "Similar to Jack in the Box",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";
-            },},{id: "projects-project-2",
-          title: 'project 2',
+            },},{id: "projects-besfem",
+          title: 'BESFEM',
           description: "a project with a background image and giscus comments",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_project/";
@@ -417,8 +417,8 @@ ninja.data = [{
           description: "Whale says a joke",
           section: "Projects",handler: () => {
               window.location.href = "/projects/5_project/";
-            },},{id: "projects-project-7",
-          title: 'project 7',
+            },},{id: "projects-tagger-library",
+          title: 'Tagger Library',
           description: "with background image",
           section: "Projects",handler: () => {
               window.location.href = "/projects/7_project/";
