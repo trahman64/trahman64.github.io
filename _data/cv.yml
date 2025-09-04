@@ -1,19 +1,20 @@
+
 - title: General Information
   type: map
   contents:
     - name: Full Name
       value: Tasmia Rahman
     - name: Date of Birth
-      value: 14th March 1879
+      value: October 29th 2002
     - name: Languages
-      value: English, German
+      value: English, Bengali
 
 - title: Education
   type: time_table
   contents:
-    - title: Md
-      institution: University of Zur, Zurich, Switzerland
-      year: 1905
+    - title: B.S. Computer Science, Minors in Business and Data Science
+      institution: Michigan State University, East Lansing, Michigan, USA
+      #year: 2026
       description:
         - Description 1.
         - Description 2.
@@ -21,177 +22,80 @@
           contents:
             - Sub-description 1.
             - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
-      description:
-        - Description 1.
-        - Description 2.
 
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Undergraduate Research Assistant
+      institution: BESFEM
+      year: May 2025 - Present
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - Translated code written in C++ to Python to perform battery electrode simulation using the MFEM library.
+        - Used SWIG to create Python wrappers for existing C++ functions for visualizing battery simulation results.
+        - Developed automated workflows for simulation setup and result analysis using Python, Bash, and Git, enhancing reproducibility and efficiency in battery research.
+        - Presented research findings at MIDSURE, showcasing simulation results and methodology to a wider academic audience.
+
+    - title: CMSE Student Tech Assistant 
+      institution: CMSE Department, Michigan State University
+      year: May 2025 - Sep 2025
       description:
-        - Description 1.
-        - Description 2.
+        - Maintain and perform analytics on the CMSE website to improve user experience and engagement.
+        - Developed a tagging library with Python to help 10+ instructors organize course material and making retreival easier.
+        - Troubleshooting and fixing hardware issues with the computers in the CMSE department.
+        - Programming and designing new pages to be added to the CMSE Department.
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
+    - title: Undergraduate Research Assistant 
+      institution: Data Science and Engineering Lab
+      year: Oct 2024 - March 2025
       description:
+        - Worked on a LLM based web tutor system aimed at teaching mathematics to middle school children.
+        - Worked with a MongoDB database to update and reset the progress of users once a module is finished or restarted.
+        - Collaborated with team members using version control systems such as Git to organize modifications and assign tasks.
+        - Created an equation tool which was connected to a LLM to help users figure out the answer with personalized assistance.
 
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
 
-- title: Open Source Projects
+
+- title: Projects
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - title: Sparty in the Box | C++, wxWidgets
+      year: Nov 2024 - Dec 2024
+      description: 
+        - Developed a Jack in the Box with C++ and wxWidgets where a character (Sparty) pops out after a certain time
+        - Added a music box animation to make the character pop out while song is being played
+        - Developed an adapter class for the Jack in the box in an existing codebase with customizable start frames
+        - Developed a keyframe-based movie system with character interactions and XML-based load/save functionality.
 
-- title: Honors and Awards
+    - title: Movie Recommendation System | Python, Numpy, Pandas, Matplotlib
+      year: Oct 2024 - Nov 2024
+      description:
+        - Developed a movie recommendation system with Python using K Nearest Neighbors
+        - Implemented data preprocessing and feature engineering on user rating datasets to optimize recommendation accuracy
+        - Evaluated model performance using a confusion matrix and fine-tuned KNN parameters for improved recommendations.
+
+- title: Technical skills
   type: time_table
   contents:
-    - year: 1921
-      items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
-      items:
-        - Max Planck Medal
+    - title: Languages
+      description:
+        - Python, C, C++, HTML/CSS, JavaScript, SQL, R, ARM
+    - title: Developer Tools 
+      description:
+        - VS Code, IntelliJ, Google Cloud Platform, Android Studio
+    - title: Technologies/Frameworks
+      description:
+        - Linux, Docker, GitHub, OpenCV, WordPress, React, React Native, Express, Node.js, PyTorch
 
-- title: Academic Interests
-  type: nested_list
+
+- title: Leadership
+  type: time_table
   contents:
-    - title: Topic 1.
-      items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
-
-- title: Other Interests
-  type: list
-  contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
-# - title: General Information
-#   type: map
-#   contents:
-#     - name: Full Name
-#       value: Tasmia Rahman
-#     - name: Date of Birth
-#       value: October 29th 2002
-#     - name: Languages
-#       value: English, Bengali
-
-# - title: Education
-#   type: time_table
-#   contents:
-#     - title: B.S. Computer Science, Minors in Business and Data Science
-#       institution: Michigan State University, East Lansing, Michigan, USA
-#       #year: 2026
-#       description:
-#         - Description 1.
-#         - Description 2.
-#         - title: Description 3.
-#           contents:
-#             - Sub-description 1.
-#             - Sub-description 2.
-
-# - title: Experience
-#   type: time_table
-#   contents:
-#     - title: Undergraduate Research Assistant
-#       institution: BESFEM
-#       year: May 2025 - Present
-#       description:
-#         - Translated code written in C++ to Python to perform battery electrode simulation using the MFEM library.
-#         - Used SWIG to create Python wrappers for existing C++ functions for visualizing battery simulation results.
-#         - Developed automated workflows for simulation setup and result analysis using Python, Bash, and Git, enhancing reproducibility and efficiency in battery research.
-#         - Presented research findings at MIDSURE, showcasing simulation results and methodology to a wider academic audience.
-
-#     - title: CMSE Student Tech Assistant 
-#       institution: CMSE Department, Michigan State University
-#       year: May 2025 - Sep 2025
-#       description:
-#         - Maintain and perform analytics on the CMSE website to improve user experience and engagement.
-#         - Developed a tagging library with Python to help 10+ instructors organize course material and making retreival easier.
-#         - Troubleshooting and fixing hardware issues with the computers in the CMSE department.
-#         - Programming and designing new pages to be added to the CMSE Department.
-
-#     - title: Undergraduate Research Assistant 
-#       institution: Data Science and Engineering Lab
-#       year: Oct 2024 - March 2025
-#       description:
-#         - Worked on a LLM based web tutor system aimed at teaching mathematics to middle school children.
-#         - Worked with a MongoDB database to update and reset the progress of users once a module is finished or restarted.
-#         - Collaborated with team members using version control systems such as Git to organize modifications and assign tasks.
-#         - Created an equation tool which was connected to a LLM to help users figure out the answer with personalized assistance.
-
-
-
-# - title: Projects
-#   type: time_table
-#   contents:
-#     - title: Sparty in the Box | C++, wxWidgets
-#       year: Nov 2024 - Dec 2024
-#       description: 
-#         - Developed a Jack in the Box with C++ and wxWidgets where a character (Sparty) pops out after a certain time
-#         - Added a music box animation to make the character pop out while song is being played
-#         - Developed an adapter class for the Jack in the box in an existing codebase with customizable start frames
-#         - Developed a keyframe-based movie system with character interactions and XML-based load/save functionality.
-
-#     - title: Movie Recommendation System | Python, Numpy, Pandas, Matplotlib
-#       year: Oct 2024 - Nov 2024
-#       description:
-#         - Developed a movie recommendation system with Python using K Nearest Neighbors
-#         - Implemented data preprocessing and feature engineering on user rating datasets to optimize recommendation accuracy
-#         - Evaluated model performance using a confusion matrix and fine-tuned KNN parameters for improved recommendations.
-
-# - title: Technical skills
-#   type: time_table
-#   contents:
-#     - title: Languages
-#       description:
-#         - Python, C, C++, HTML/CSS, JavaScript, SQL, R, ARM
-#     - title: Developer Tools 
-#       description:
-#         - VS Code, IntelliJ, Google Cloud Platform, Android Studio
-#     - title: Technologies/Frameworks
-#       description:
-#         - Linux, Docker, GitHub, OpenCV, WordPress, React, React Native, Express, Node.js, PyTorch
-
-
-# - title: Leadership
-#   type: time_table
-#   contents:
-#     - title: Resident Assistant
-#       year: Jan 2025 - Present
-#       description: 
-#         - Fostered an inclusive and supportive community for over 50 residents, promoting personal growth and engagement
-#         - Planned and executed educational and social programs, helping residents balance academics, wellness, and campus involvement
-#         - Collaborated with other RAs and hall staff to address conflicts, provide guidance, and ensure well-being and safety of residents
+    - title: Resident Assistant
+      year: Jan 2025 - Present
+      description: 
+        - Fostered an inclusive and supportive community for over 50 residents, promoting personal growth and engagement
+        - Planned and executed educational and social programs, helping residents balance academics, wellness, and campus involvement
+        - Collaborated with other RAs and hall staff to address conflicts, provide guidance, and ensure well-being and safety of residents
 
 
 
