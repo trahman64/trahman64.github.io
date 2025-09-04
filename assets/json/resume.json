@@ -82,7 +82,7 @@
   "awards": [
     {
       "title": "Dean's List",
-      "date": "From Fall 2022 to current"
+      "date": "From Fall 2022 "
     }
   ],
   
@@ -115,3 +115,4 @@
     "description": "Built a movie recommendation system using K Nearest Neighbors with Python."
 }
   ]
+}
