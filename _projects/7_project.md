@@ -1,6 +1,6 @@
 ---
 layout: page
-title: project 7
+title: Tagger Library
 description: with background image
 img: assets/img/4.jpg
 importance: 1
@@ -8,11 +8,9 @@ category: work
 related_publications: true
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+The Tagger library is a lightweight tool designed to manage and organize tagged content efficiently. It supports operations such as adding and deleting tags, retrieving items by their assigned tags, and automatically generating markdown files to present the tagged data in a structured format. The library provides a flexible way to categorize information, making it easier to navigate, display, and export content across different use cases.
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+<!-- To give your project a background in the portfolio page, just add the img tag to the front matter like so:
 
     ---
     layout: page
@@ -78,4 +76,4 @@ Here's the code for the last row of images above:
 </div>
 ```
 
-{% endraw %}
+{% endraw %} -->
